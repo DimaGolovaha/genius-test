@@ -1,0 +1,161 @@
+/* Fonts */
+@font-face {
+   font-display: swap;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2');
+   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+   font-display: swap;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+   font-display: swap;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2');
+   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+   font-display: swap;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 900;
+   src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2');
+   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+ /* Base */
+ :root {
+   --color-primery-dark: #31261A;
+   --color-primery-light: #FAF4EA;
+   --color-brand-dark: #465929;
+   --color-brand-light: #819B57;
+ }
+body {
+   color: var(--color-primery-dark);
+   font-family: 'poppins', sans-serif ;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
+}
+ul {
+   list-style-type: none;
+}
+
+/* Button */
+.button {
+color: var(--color-primery-light);
+background-color: var(--color-brand-light);
+border: 2px solid var(--color-brand-light);
+border-radius: 8px;
+cursor: pointer;
+font-weight: 600;
+}
+
+.button:hover {
+   color: var(--color-brand-light);
+   background-color: transparent;
+   font-weight: 600;
+} 
+
+/* Link */
+
+.link {
+   color: #FAF4EA;
+   text-decoration: none;
+}
+
+.link:hover {
+   color: #819B57;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+/* Base for section */
+
+.section-title {
+   color: #31261A;
+   font-weight: 900;      
+   font-size: 64px;
+   line-height: 1.3;
+}
+   
+/* hero(main) section */
+.hero-title {
+   color: #FAF4EA;
+   text-align: center;
+   font-size: 128px;
+   font-weight: 900;
+}
+
+.hero-title .accent {
+   color: #819B57;
+   
+}
+
+/* traditions-section */
+
+.shopbakery {
+   text-transform: uppercase;
+}
+.advantages-list {
+   color: #FAF4EA;
+   background-color: #819B57;
+   font-weight: 300;
+   font-size: 20px;
+}
+.traditions-section span {
+   color: var(--color-brand-light);
+   font-weight: 600;
+}
+
+/* chef section */
+.chef-section span {
+   color: var(--color-brand-dark);
+}
+.chefcard-title {
+   font-weight: 600;
+   font-size: 40px;
+}
+
+/* format secrion */
+.formats-section {
+   color: var(--color-primery-light);
+   font-weight: 300;
+   font-size: 14px;
+}
+.formatcard-title {
+   font-weight: 600;
+   font-size: 24px;
+}
+
+/* contacts-section */
+.contacts-section p {
+color: var(--color-brand-dark)
+}
+.privacy {
+   color: var(--color-primery-dark);
+   font-weight: 400;
+   font-size: 12px;
+}
+.privacy span {
+   text-decoration: underline;
+}
+/* Footer */
+footer {
+   background-color: gray;
+}
+.contacts {
+   color: var(--color-primery-light);
+}
+.data-protected {
+   color: #A28268;
+}
